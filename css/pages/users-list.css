@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+
+	border: 2px solid orangered;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+li {
+	display: flex;
+	align-items: center;
+
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+i {
+	margin-left: auto;
+}
+
+li + li {
+	margin-top: 10px;
+}
